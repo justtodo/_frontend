@@ -1,0 +1,39 @@
+// id : shopify-features
+{
+        "shopId": 6605611,
+        "countryCode": "US",
+        "currencyCode": "USD",
+        "merchantCapabilities": ["supports3DS"],
+        "merchantId": "gid:\/\/shopify\/Shop\/6605611",
+        "merchantName": "Persaman New York",
+        "requiredBillingContactFields": ["postalAddress", "email", "phone"],
+        "requiredShippingContactFields": ["postalAddress", "email", "phone"],
+        "shippingType": "shipping",
+        "supportedNetworks": [
+          "visa",
+          "masterCard",
+          "amex",
+          "discover",
+          "jcb",
+          "elo",
+          "chinaUnionPay"
+        ],
+        "total": {
+          "type": "pending",
+          "label": "Persaman New York",
+          "amount": "1.00"
+        }
+      }
+    //   
+       {
+        "accessToken": "ac5d2387538359b4d23540cea8fdecf0",
+        "betas": ["rich-media-storefront-analytics"],
+        "domain": "www.persamannewyork.com",
+        "predictiveSearch": true,
+        "shopId": 6605611,
+        "smart_payment_buttons_url": "https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js",
+        "dynamic_checkout_cart_url": "https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js",
+        "locale": "en"
+      }
+      
+      //
