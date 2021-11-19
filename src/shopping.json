@@ -1,39 +1,26 @@
-// id : shopify-features
 {
-        "shopId": 6605611,
-        "countryCode": "US",
-        "currencyCode": "USD",
-        "merchantCapabilities": ["supports3DS"],
-        "merchantId": "gid:\/\/shopify\/Shop\/6605611",
-        "merchantName": "Persaman New York",
-        "requiredBillingContactFields": ["postalAddress", "email", "phone"],
-        "requiredShippingContactFields": ["postalAddress", "email", "phone"],
-        "shippingType": "shipping",
-        "supportedNetworks": [
-          "visa",
-          "masterCard",
-          "amex",
-          "discover",
-          "jcb",
-          "elo",
-          "chinaUnionPay"
-        ],
-        "total": {
-          "type": "pending",
-          "label": "Persaman New York",
-          "amount": "1.00"
-        }
-      }
-    //   
-       {
-        "accessToken": "ac5d2387538359b4d23540cea8fdecf0",
-        "betas": ["rich-media-storefront-analytics"],
-        "domain": "www.persamannewyork.com",
-        "predictiveSearch": true,
-        "shopId": 6605611,
-        "smart_payment_buttons_url": "https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js",
-        "dynamic_checkout_cart_url": "https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js",
-        "locale": "en"
-      }
-      
-      //
+  "@context": "http://schema.org",
+  "@type": "Product",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "1300.0",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2021-11-27",
+    "url": "https://www.persamannewyork.com/products/bartolo-saddle"
+  },
+  "brand": "Persaman New York",
+  "sku": "",
+  "name": "Bartolo",
+  "description": "- Leather\n- Dual rolled top handles \n- Single detachable, adjustable strap \n- Zip around top closure \n- Exterior features topstitching, 2 side zip compartments, and 1 front zip pocket \n- Interior features 1 zip pocket \n- Approx. 12\" H x 19.25\" W x 10.25\" D \n- Approx. 8\" handle drop, 11-22\" strap drop \n- Made in Italy\n-MAY TAKE UP TO 3 WEEKS TO SHIP",
+  "category": "",
+  "url": "https://www.persamannewyork.com/products/bartolo-saddle",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://cdn.shopify.com/s/files/1/0660/5611/products/9128885_1024x1024.jpg?v=1541780881",
+    "image": "https://cdn.shopify.com/s/files/1/0660/5611/products/9128885_1024x1024.jpg?v=1541780881",
+    "name": "Bartolo",
+    "width": 1024,
+    "height": 1024
+  }
+}

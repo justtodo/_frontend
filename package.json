@@ -1,0 +1,19 @@
+{
+  "name": "upcookie",
+  "version": "1.0.0",
+  "description": "frontend website upcookie",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justtodo/_frontend.git"
+  },
+  "author": "tcotidiane33",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justtodo/_frontend/issues"
+  },
+  "homepage": "https://github.com/justtodo/_frontend#readme"
+}
