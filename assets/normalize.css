@@ -1,0 +1,250 @@
+*,
+:after,
+:before,
+input {
+  box-sizing: border-box;
+}
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+
+
+body {
+  font-weight: 400;
+}
+p {
+  margin: 0 0 15px 0;
+}
+p img {
+  margin: 0;
+}
+em {
+  font-style: italic;
+}
+b,
+strong {
+  font-weight: 700;
+}
+small {
+  font-size: 0.85em;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 60%;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.5em;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  margin: 0 0 7.5px;
+}
+@media only screen and (min-width: 769px) {
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 0 15px;
+  }
+}
+.h1 a,
+.h2 a,
+.h3 a,
+.h4 a,
+.h5 a,
+.h6 a,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  text-decoration: none;
+  font-weight: inherit;
+}
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  font-family: "DIN Neuzeit Grotesk", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.h1,
+h1 {
+  font-size: 2em;
+}
+.h2,
+h2 {
+  font-size: 1.72em;
+}
+.h3,
+h3 {
+  font-size: 1.4em;
+}
+.h4,
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 0.75em;
+}
+.h5,
+.h6,
+h5,
+h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 0.75em;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .h5,
+  .h6,
+  h5,
+  h6 {
+    margin-bottom: 5px;
+  }
+}
+
+
+ol,
+ul {
+  margin: 0 0 15px 30px;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+}
+ol ol {
+  list-style: lower-alpha;
+}
+ol {
+  list-style: decimal;
+}
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin: 4px 0 5px 20px;
+}
+li {
+  margin-bottom: 0.25em;
+}
+ul.square {
+  list-style: square outside;
+}
+ul.disc {
+  list-style: disc outside;
+}
+ol.alpha {
+  list-style: lower-alpha outside;
+}
+.no-bullets {
+  list-style: none outside;
+  margin-left: 0;
+}
+.inline-list {
+  padding: 0;
+  margin: 0;
+}
+.inline-list li {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+table {
+  width: 100%;
+  border-spacing: 1px;
+  position: relative;
+  border: 0 none;
+  background: #f1f1f1;
+}
+.table-wrapper {
+  max-width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+td,
+th {
+  border: 0 none;
+  text-align: left;
+  padding: 10px 15px;
+  background: #fff;
+}
+th {
+  font-weight: 700;
+}
+.table__title,
+th {
+  font-weight: 700;
+}
+.text-link,
+a {
+  color: #000;
+  text-decoration: none;
+  background: 0 0;
+}
+.text-link:hover,
+a:hover {
+  color: #000;
+}
+.text-link {
+  display: inline;
+  border: 0 none;
+  background: 0 0;
+  padding: 0;
+  margin: 0;
+}
+
+/*  */

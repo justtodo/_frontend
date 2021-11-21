@@ -1,0 +1,62 @@
+@font-face {
+        font-family: "DIN Neuzeit Grotesk";
+        font-weight: 300;
+        font-style: normal;
+        src: url("https://fonts.shopifycdn.com/din_neuzeit_grotesk/dinneuzeitgrotesk_n3.a0f3c74e63f622e59b916bd3ad28c501f51e0350.woff2?h1=cGVyc2FtYW5uZXd5b3JrLmNvbQ&hmac=c5a6a01aba237358924539071f02e2bea56eaf84cea34c16f54f1cd69e22dc40")
+            format("woff2"),
+          url("https://fonts.shopifycdn.com/din_neuzeit_grotesk/dinneuzeitgrotesk_n3.7652704516cc290a4e9a5e4108824e968ea40fa9.woff?h1=cGVyc2FtYW5uZXd5b3JrLmNvbQ&hmac=ebcaa7df7e9640d5d042903c47f2e8090c1b3d4ec5b0aaee2524b04439b2c16e")
+            format("woff");
+      }
+
+      @font-face {
+        font-family: Futura;
+        font-weight: 400;
+        font-style: normal;
+        src: url("https://fonts.shopifycdn.com/futura/futura_n4.df36ce3d9db534a4d7947f4aa825495ed740e410.woff2?h1=cGVyc2FtYW5uZXd5b3JrLmNvbQ&hmac=6baa2cd631db4494d5e90555ba149312f3afbb258485c8aad6c07e8b8235f962")
+            format("woff2"),
+          url("https://fonts.shopifycdn.com/futura/futura_n4.6bce24beb4ba1ff4ddeb20f7cd6e2fa513a3d6ec.woff?h1=cGVyc2FtYW5uZXd5b3JrLmNvbQ&hmac=51505a2639747216416b6e616ef8d38be9f6693a6ef449abfc4c765d1bf0a12a")
+            format("woff");
+      }
+
+      @font-face {
+        font-family: Futura;
+        font-weight: 600;
+        font-style: normal;
+        src: url("https://fonts.shopifycdn.com/futura/futura_n6.bbe2e25d5b96d13ff36b242171a3d07cf5a60170.woff2?h1=cGVyc2FtYW5uZXd5b3JrLmNvbQ&hmac=968a2a201c8834a169cdfb25a2e35d67d264358e5313e576fc72e8cd042e90a6")
+            format("woff2"),
+          url("https://fonts.shopifycdn.com/futura/futura_n6.66fa8f5c3c4b2c7c04809ecefe751450fa59d995.woff?h1=cGVyc2FtYW5uZXd5b3JrLmNvbQ&hmac=e3bd65c84363962d2c4939f908837a2d7c76b4d5faa2a5c816b4f044087b8783")
+            format("woff");
+      }
+
+      @font-face {
+        font-family: Futura;
+        font-weight: 400;
+        font-style: oblique;
+        src: url("https://fonts.shopifycdn.com/futura/futura_o4.9747e2e6ed2f11b894984527c927b42234e48815.woff2?h1=cGVyc2FtYW5uZXd5b3JrLmNvbQ&hmac=33a77855e29809271b6cc02922afaf87217a1cb54c4dada12ee65a92b7535ead")
+            format("woff2"),
+          url("https://fonts.shopifycdn.com/futura/futura_o4.d5edc6b1d9a050bbe0beb9093d73b883bf18c6c1.woff?h1=cGVyc2FtYW5uZXd5b3JrLmNvbQ&hmac=4d5dd63d117d091efa6a20c7377885f1e1fa0aa4cee1d91e31b23a5a8a72e1a3")
+            format("woff");
+      }
+
+      @font-face {
+        font-family: Futura;
+        font-weight: 600;
+        font-style: oblique;
+        src: url("https://fonts.shopifycdn.com/futura/futura_o6.2978dbd38bd9b3e8b72ee3299cd940da2900eb72.woff2?h1=cGVyc2FtYW5uZXd5b3JrLmNvbQ&hmac=a07d13b1a6fcdddc5545a672f7bc947674c650559ac742cfe621e028cbc9d670")
+            format("woff2"),
+          url("https://fonts.shopifycdn.com/futura/futura_o6.bbc5bc6e7a675b3182e4866da9f9643bb3821261.woff?h1=cGVyc2FtYW5uZXd5b3JrLmNvbQ&hmac=b5b6ea40d73bc32c8feddc60e69bc81dccadf273e167ff2a045aeea47f7497d5")
+            format("woff");
+      }
+
+      /* data-shopify */
+       .collection-item__title {
+        font-size: 14.4px;
+      }
+
+      @media screen and (min-width: 769px) {
+        .collection-item__title {
+          font-size: 18px;
+        }
+      }
+
+      
