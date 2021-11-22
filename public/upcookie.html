@@ -54,6 +54,23 @@
       type="text/css"
       media="all"
     />
+    <!-- script for deploy humburgeur effect and store effect  -->
+    <script>
+      window.performance &&
+        window.performance.mark &&
+        window.performance.mark("shopify.content_for_header.end");
+    </script>
+
+    <script
+      src="//cdn.shopify.com/s/files/1/0660/5611/t/32/assets/vendor-scripts-v6.js"
+      defer="defer"
+    ></script>
+
+    <script
+      src="//cdn.shopify.com/s/files/1/0660/5611/t/32/assets/theme.js?v=13437044988013674143"
+      defer="defer"
+    ></script>
+    <!-- end script et se déchance apres le chargement de la html  -->
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="628" />
   </head>
@@ -66,6 +83,7 @@
     <div id="PageContainer" class="page-container">
       <div class="transition-body">
         <div id="shopify-section-header" class="shopify-section">
+          <!--  START HAMBURGEUR HEADER -->
           <div id="NavDrawer" class="drawer drawer--right">
             <div class="drawer__contents">
               <div class="drawer__fixed-header drawer__fixed-header--full">
@@ -564,7 +582,7 @@
 
                   <li class="mobile-nav__item appear-animation appear-delay-5">
                     <a
-                      href="/pages/babi"
+                      href="/pages/service"
                       class="mobile-nav__link mobile-nav__link--top-level"
                       >SERVICES</a
                     >
@@ -660,7 +678,7 @@
             </div>
           </div>
 
-          <!-- <div id="CartDrawer" class="drawer drawer--right">
+          <div id="CartDrawer" class="drawer drawer--right">
             <form
               action="/cart"
               method="post"
@@ -693,7 +711,7 @@
               <div id="CartContainer" class="drawer__inner"></div>
             </form>
           </div>
-
+<!-- END OF  HAMBURGEUR HEADER -->
           <style data-shopify>
             .site-nav__link,
             .site-nav__dropdown-link:not(.site-nav__dropdown-link--top-level) {
@@ -708,7 +726,7 @@
             .mobile-nav__link--top-level {
               font-size: 1.1em;
             }
-          </style> -->
+          </style>
           <!-- ===================================
     ===================================== debut HEADER ========================================
     ========================================= -->
@@ -1223,7 +1241,9 @@
               </div>
             </div>
           </div>
-          <!-- ======= == === = FIN DU HEADER +++++++======== -->
+          <!-- ======= == === = ===================
+            ==========================FIN DU HEADER ++============================
+            =======================+++++++======== -->
         </div>
 
         <main class="main-content" id="MainContent">
