@@ -28,6 +28,12 @@
       type="text/css"
       media="all"
     />
+    <link
+      href="../../assets/account.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
     <meta name="theme-color" content="#111111" />
     <link rel="canonical" href="https://www.upcookie.ci/collections" />
     <link rel="shortcut icon" href="../3.png" type="image/png" />
@@ -44,8 +50,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Collections" />
     <meta name="twitter:description" href="../3png" content="!" />
-<!-- 
-    <style data-shopify>
+
+    <!-- <style data-shopify>
       @font-face {
         font-family: "DIN Neuzeit Grotesk";
         font-weight: 300;
@@ -197,13 +203,14 @@
   </head>
 
   <body class="template-list-collections" data-transitions="false">
-    <a class="in-page-link visually-hidden skip-link" href="#MainContent"
+    <!-- <a class="in-page-link visually-hidden skip-link" href="#MainContent"
       >Skip to content</a
-    >
+    > -->
 
     <div id="PageContainer" class="page-container">
       <div class="transition-body">
         <div id="shopify-section-header" class="shopify-section">
+          <!-- start hamburger  -->
           <!-- start hamburger  -->
           <div id="NavDrawer" class="drawer drawer--right">
             <div class="drawer__contents">
@@ -1392,52 +1399,88 @@
           >
             <div class="page-width page-content">
               <header class="section-header">
-                <h1 class="section-header__title">Catalogue STORE</h1>
+                <h1 class="section-header__title">Bienvenue Sur UpCookie</h1>
               </header>
-              <!-- begin card  -->
-              <div class="grid grid--uniform">
-                <div class="grid__item small--one-half medium-up--one-third">
-                  <a
-                    href="/collections/drop"
-                    class="collection-item collection-item--overlaid-box"
-                    data-aos="row-of-"
-                    ><div class="image-wrap">
-                      <div
-                        class="
-                          collection-image collection-image--square
-                          lazyload
-                        "
-                        data-sizes="auto"
-                        style="background-position: center center"
-                      ></div>
+              <!-- begin login  -->
+              <div class="main-box">
+                <div class="slider-cont">
+                  <div class="signup-slider">
+                    <div class="img-txt">
+                      <div class="img-layer"></div>
+                      <h1>
+                        service informatique en ligne baser en côte d'ivoire
+                      </h1>
+                      <img
+                        src="https://static.pexels.com/photos/33972/pexels-photo.jpg"
+                      />
                     </div>
-                    <noscript>
-                      <!-- dropshipping -->
-                      <div
-                        class="collection-image collection-image--square"
-                        stgit
-                        yle="
-                          background-image: url(../../assets/products/2.png);
-                          background-position: center center;
-                        "
-                      ></div> </noscript
-                    ><span
-                      class="
-                        collection-item__title
-                        collection-item__title--overlaid-box
-                        collection-item__title--body
-                        collection-item__title--center
-                      "
-                    >
-                      <span> DROPSHIPPING </span>
-                    </span>
-                  </a>
+                    <div class="img-txt">
+                      <div class="img-layer"></div>
+                      <h1>rejoignez un startup de developpeur innovant</h1>
+                      <img
+                        src="https://static.pexels.com/photos/257897/pexels-photo-257897.jpeg"
+                      />
+                    </div>
+                    <div class="img-txt">
+                      <div class="img-layer"></div>
+                      <h1>Rejoignez-Nous ! Maintenant</h1>
+                      <img
+                        src="https://static.pexels.com/photos/317383/pexels-photo-317383.jpeg"
+                      />
+                    </div>
+                  </div>
                 </div>
-                <!--=======================++++++++++++
-  ====================== INSERTION DES ARTICLES ICI +++++=========================
-======================== -->
+
+                <div class="form-cont">
+                  <div class="top-buttons">
+                    <button class="to-signup top-active-button">
+                      CREER UN COMPTE
+                    </button>
+                    <button class="to-signin">SE CONNECTER</button>
+                  </div>
+
+                  <div class="form form-signup">
+                    <form action="#">
+                      <lable>NOM ET PRENOM </lable>
+                      <input type="text" placeholder="Your full name" />
+                      <lable>E-MAIL</lable>
+                      <input type="email" placeholder="Your e-mail" />
+                      <lable>MOTS DE PASSE</lable>
+                      <input type="password" placeholder="Your password" />
+                      <p class="terms">
+                        <input type="checkbox" />
+                        I agree all statments in
+                        <a href="#" class="lined-link">terms of service</a>
+                      </p>
+                      <input type="submit" class="form-btn" value="Sign Up" />
+                      <br /><br />
+                      <a href="#" class="lined-link to-signin-link"
+                        >je suis un ancien membre</a
+                      >
+                    </form>
+                  </div>
+
+                  <div class="form form-signin">
+                    <form action="#">
+                      <lable>E-MAIL</lable>
+                      <input type="email" placeholder="Your e-mail" />
+                      <lable>PASSWORD</lable>
+                      <input type="password" placeholder="Your password" />
+                      <input type="submit" class="form-btn" value="Sign In" />
+                      <br /><br />
+                      <a href="#" class="lined-link to-signup-link"
+                        >Crée un nouveau compte
+                      </a>
+                    </form>
+                  </div>
+                </div>
+                <div class="clear-fix"></div>
               </div>
-              <!-- end card  -->
+              <!--=======================++++++++++++
+  ====================== INSERTION  +++++=========================
+======================== -->
+
+              <!-- end page  -->
             </div>
           </div>
         </main>
@@ -2327,5 +2370,6 @@
     <script src="../../src/index.js"></script>
     <script src="../../src/codes.js"></script>
     <script src="../../src/scripts.js"></script>
+    <script src="../../src/account.js"></script>
   </body>
 </html>
